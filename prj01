@@ -22,6 +22,6 @@ for k in range(len(a)-1):#we find the twins near the known primes
         print (a[k],a[k+1])
         b +=1
 
-print("The largest twinprime in range 1000~1000000:",a[k-2],a[k-1])# after run k will be added 1,so we get the k-2 and k-1 is the largest twinsprime
+print("The largest twinprime in range 1000~1000000:",a[k-2],a[k-1])# after running the for process,the k will be added 1 automatically,so we get the pair a[k-2],a[k-1] which is the last print line,is the largest twinsprime.
 
 print("The number of twinsprime in range 1000~1000000:",b)

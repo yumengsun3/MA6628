@@ -1,0 +1,27 @@
+import math
+def prime(n): #definite what is prime
+    count=0
+    for  i in range(2,int(math.sqrt(n))+1):
+        if n%i==0:
+            count=1
+        i+=1
+    if count==1:
+        return None
+    else:
+        return True
+
+a=[]
+
+b = 0
+for j in range(1000,1000000):# We find the twinprime in the known prime for range 1000~1000000
+    if prime(j)==True:
+        a.append(j)
+
+for k in range(len(a)-1):#we find the twins near the known primes
+    if a[k]+2==a[k+1]:
+        print (a[k],a[k+1])
+        b +=1
+
+print("The largest twinprime in range 1000~1000000:",a[k-2],a[k-1])# after run k will be added 1,so we get the k-2 and k-1 is the largest twinsprime
+
+print("The number of twinsprime in range 1000~1000000:",b)

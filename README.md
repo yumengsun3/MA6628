@@ -9,7 +9,7 @@ The first assignment python code given below:
 The second assignment python code given below:
 * [prj02](https://github.com/yumengsun3/MA6628/blob/master/prj02.ipynb) prj02.
 
-- The GAC price by BSM module is  2.732987 .
+The GAC price by BSM module is  2.732987 .
 
 The relationship refers to  [L04supp01](https://github.com/songqsh/MA6628v02/blob/master/pdf/L04supp01.pdf) .
 
